@@ -1,10 +1,14 @@
 <?php 
 
+use PHPMailer\PHPMailer\Exception;
 use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\SMTP;
 
-require_once 'phpMailer/Exception.php';
-require_once 'PHPMailer.php';
-require_once 'SMTP.php';
+
+
+require_once './phpMailer/Exception.php';
+require_once './phpMailer/PHPMailer.php';
+require_once './phpMailer/SMTP.php';
 
 $mail = new PHPMailer(true);
 
@@ -12,28 +16,28 @@ if(isset($_POST['submit']))
 {
     $name = $_POST['name'];
     $email = $_POST['email'];
+    $subject = $_POST['subject'];
     $message = $_POST['message'];
 
     try
     {
         $mail->isSMTP();
-        $mail->Host = 'smtp.outlook.com';
         $mail->SMTPAuth = true;
-        $mail->Username = 'nathanleduc@hotmail.fr';
-        $mail->Password = 'secret';
-        $mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
-        $mail->Port = 465;
+        $mail->Port = 25;
+        $mail->Host = 'campus01.o2switch.net';
+        $mail->Username = 'nathan@portfolio.leduc.cefim.o2switch.site';
+        $mail->Password = 'Chocolat28110';
 
-        $mail->setFrom('nathanleduc@hotmail.fr');
-        $mail->addAddress('nathanleduc@hotmail.fr');
+        $mail->setFrom('nathan@portfolio.leduc.cefim.o2switch.site');
+        $mail->addAddress('nathan@portfolio.leduc.cefim.o2switch.site');
 
         $mail->isHTML(true);
-        $mail->Subject = 'Message Reçu (Portfolio)';
-        $mail->body = '<h2>Nom : $name</h2> <br> <h2>Email : $email</h2> <br> <h2>Message : $message</h2>';
+        $mail->Subject = 'Message de (Portfolio) '. $name;
+        $mail->Body = '<h2>Nom :'. $name. '</h2> <br> <h2>Email :'. $email. '</h2> <br> <h2>Objet :'. $subject. '</h2> <br> <h2>Message :'. $message.'</h2>';
         $mail->send();
 
-        $aler = '<div>
-                    <span>Votre message a bien était envoyé ! Je vous répondrais sous peu</span>
+        $alert = '<div class="modal-email">
+                    <span>Votre message a bien été envoyé ! </span>
                 </div>';
     } catch(Exception $e)
     {
