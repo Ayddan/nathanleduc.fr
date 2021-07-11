@@ -6,15 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nathan Leduc</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+   integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+   crossorigin=""/>
 </head>
 <body>
     <section class="hero container">
         <div class="text-content">
             <h1>Nathan Leduc <br> Developpeur web</h1>
-            <span>Js-React / php-Symfony</span>
-            <div class="hero-links">
+            <span class="sub-title">Js-React / php-Symfony</span>
+            <div class="links-wrapper">
                 <a class="button-1" href="#contact">Me contacter</a>
-                <a class="button-1" href="#contact">En savoir plus</a>
+                <a class="button-1" href="#presentation">En savoir plus</a>
             </div>
         </div>
         <div class="letters">
@@ -22,8 +25,8 @@
             <img src="./images/svg/l-hero.svg" alt="Logo L">
         </div>
     </section>
-    <section class="presentation container">
-        <h2>Bienvenue, je suis Nathan</h2>
+    <section class="presentation container" id="presentation">
+        <h2>Bienvenue, je suis Nathan.</h2>
         <p>Je développe des sites web et applications depuis plus d'un an avec passion. D'abord autodidacte, puis en apprentissage. J'ai accumulé une expérience qui ma permise d'agrandir mon champ de compétences et de répondre aux attentes des clients</p>
     </section>
     <section class="tech">
@@ -126,44 +129,48 @@
             </div>
         </div>
     </section>
-    <section class="contact">
+    <section class="contact container" id="contact">
         <h2>Un projet en tête ? <br>Contactez moi !</h2>
-        <form action="">
-            <div class="from-row">
-                <div class="form-group">
-                    <label class="ir" for="name">Nom</label>
-                    <input class="form-input" type="text" id="name" name="name" placeholder="Nom">
+        <div class="content">
+            <form action="POST">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label class="ir" for="name">Nom</label>
+                        <input class="form-input" type="text" id="name" name="name" placeholder="Nom">
+                    </div>
+                    <div class="form-group">
+                        <label class="ir" for="email">Email</label>
+                        <input class="form-input" type="email" id="email" name="email" placeholder="Email">
+                    </div>
                 </div>
-                <div class="form-group">
-                    <label class="ir" for="email">Email</label>
-                    <input class="form-input" type="email" id="email" name="email" placeholder="Email">
-                </div>
-            </div>
-            <div class="from-row">
                 <div class="form-group">
                     <label class="ir" for="subject">Objet</label>
                     <input class="form-input" type="text" id="subject" name="subject" placeholder="Objet">
                 </div>
-            </div>
-            <div class="from-row">
                 <div class="form-group">
                     <label class="ir" for="message">Message</label>
-                    <input class="form-input" type="text" id="message" name="message" placeholder="Message">
+                    <textarea class="form-input" name="message" id="message" placeholder="Message" rows="10"></textarea>
                 </div>
-            </div>
-            <div class="form-row">
-                <div class="social-medias">
-                    <a class="social-link" href="#"><img src="./images/svg/twitter.svg" alt="Logo twitter"></a>
-                    <a class="social-link" href="#"><img src="./images/svg/linkedin.svg" alt="Logo twitter"></a>
-                    <a class="social-link" href="#"><img src="./images/svg/github.svg" alt="Logo twitter"></a>
+
+                <div class="form-row">
+                    <div class="social-medias">
+                        <a class="social-link" href="#"><img src="./images/svg/twitter.svg" alt="Logo twitter"></a>
+                        <a class="social-link" href="#"><img src="./images/svg/linkedin.svg" alt="Logo twitter"></a>
+                        <a class="social-link" href="#"><img src="./images/svg/github.svg" alt="Logo twitter"></a>
+                    </div>
+                    <div class="form-group">
+                        <label class="ir" for="submit">Envoyer</label>
+                        <input class="button-1" type="submit" value="Envoyer">
+                    </div>
                 </div>
-                <div class="form-group">
-                    <label for="submit">Envoyer</label>
-                    <input class="button-1" type="submit" value="Envoyer">
-                </div>
-            </div>
-        </form>
+            </form>
+            <div id="map"></div>
+        </div>
     </section>
-    <script src="./js/gsap.min.js"></script>
+    <script src='./js/gsap.min.js'></script>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+   integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+   crossorigin=""></script>
+    <script src='./js/map.js'></script>
 </body>
 </html>
