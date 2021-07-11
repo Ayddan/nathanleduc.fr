@@ -24,12 +24,12 @@ if(isset($_POST['submit']))
         $mail->isSMTP();
         $mail->SMTPAuth = true;
         $mail->Port = 25;
-        $mail->Host = 'campus01.o2switch.net';
-        $mail->Username = 'nathan@portfolio.leduc.cefim.o2switch.site';
-        $mail->Password = 'Chocolat28110';
+        $mail->Host = 'host';
+        $mail->Username = 'user';
+        $mail->Password = 'Secret';
 
-        $mail->setFrom('nathan@portfolio.leduc.cefim.o2switch.site');
-        $mail->addAddress('nathan@portfolio.leduc.cefim.o2switch.site');
+        $mail->setFrom('email');
+        $mail->addAddress('email');
 
         $mail->isHTML(true);
         $mail->Subject = 'Message de (Portfolio) '. $name;
