@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="190" height="190" viewBox="0 0 190 190">
+  <defs>
+    <filter id="Tracé_25" x="0" y="0" width="190" height="190" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="javascript" transform="translate(9 6)">
+    <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#Tracé_25)">
+      <path id="Tracé_25-2" data-name="Tracé 25" d="M172,86a85.565,85.565,0,1,1-6.041-31.725A85.744,85.744,0,0,1,172,86Z" transform="translate(9 6)" fill="#e4ba42"/>
+    </g>
+    <g id="Groupe_5" data-name="Groupe 5" transform="translate(24.849 15.189)">
+      <path id="Tracé_26" data-name="Tracé 26" d="M328.577,197.831c-2.394-6.942-12.208-6.942-14.123-1.2s4.548,9.1,14.6,12.448,16.278,12.208,15.081,20.107-4.548,18.192-24.416,18.192c-12.417,0-19.318-7.761-22.748-13.582l11.258-6.765s3.83,8.139,11.011,8.139,10.054-2.394,10.054-7.9c0-6.7-23.219-9.1-26.81-20.586s1.2-27.767,17.953-26.571c10.473.748,16.363,5.891,19.309,9.642Z" transform="translate(-222.057 -134.757)" fill="#f2f2f2"/>
+      <path id="Tracé_27" data-name="Tracé 27" d="M181.3,183.8v45.96c0,5.505-4.787,8.378-9.575,7.421s-6.942-6.7-6.942-6.7L153.771,237.9s2.394,11.011,17.474,11.969,23.7-8.139,23.7-15.8V183.8Z" transform="translate(-126.962 -137.247)" fill="#f2f2f2"/>
+      <path id="Tracé_28" data-name="Tracé 28" d="M73.968,45.213V176.491a86.043,86.043,0,0,0,11.6,9.832h99.1a86.224,86.224,0,0,0,9.418-7.7H81.669V52.914h125.7V162.682a85.534,85.534,0,0,0,7.705-14.932V45.213Z" transform="translate(-73.968 -45.213)" fill="#f2f2f2"/>
+    </g>
+    <circle id="Ellipse_4" data-name="Ellipse 4" cx="13.644" cy="13.644" r="13.644" transform="translate(15.87 100.287)" fill="#3f4a43"/>
+  </g>
+</svg>

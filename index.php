@@ -5,8 +5,165 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nathan Leduc</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    
+    <section class="hero container">
+        <div class="text-content">
+            <h1>Nathan Leduc <br> Developpeur web</h1>
+            <span>Js-React / php-Symfony</span>
+            <div class="hero-links">
+                <a class="button-1" href="#contact">Me contacter</a>
+                <a class="button-1" href="#contact">En savoir plus</a>
+            </div>
+        </div>
+        <div class="letters">
+            <img src="./images/svg/n-hero.svg" alt="Logo N">
+            <img src="./images/svg/l-hero.svg" alt="Logo L">
+        </div>
+    </section>
+    <section class="presentation container">
+        <h2>Bienvenue, je suis Nathan</h2>
+        <p>Je développe des sites web et applications depuis plus d'un an avec passion. D'abord autodidacte, puis en apprentissage. J'ai accumulé une expérience qui ma permise d'agrandir mon champ de compétences et de répondre aux attentes des clients</p>
+    </section>
+    <section class="tech">
+        <div class="tech-content container">
+            <h2><img src="./images/svg/web-development.svg" alt="Logo languages"> Languages</h2>
+            <div class="tech-line">
+                <div class="tech-element">
+                    <img src="./images/svg/030-html-5.svg" alt="">
+                    <span>HTML</span>
+                </div>
+                <div class="tech-element">
+                    <img src="./images/svg/031-css.svg" alt="">
+                    <span>CSS</span>
+                </div>
+                <div class="tech-element">
+                    <img src="./images/svg/javascript.svg" alt="">
+                    <span>JAVASCRIPT</span>
+                </div>
+                <div class="tech-element">
+                    <img src="./images/svg/php.svg" alt="">
+                    <span>PHP</span>
+                </div>
+                <div class="tech-element">
+                    <img src="./images/svg/021-mysql.svg" alt="">
+                    <span>MYSQL</span>
+                </div>
+                <div class="tech-element">
+                    <img src="./images/svg/005-python.svg" alt="">
+                    <span>PYTHON</span>
+                </div>
+            </div>
+            <h2><img src="./images/svg/web-settings.svg" alt="Logo frameworks"> Frameworks / Librairies</h2>
+            <div class="tech-line">
+                <div class="tech-element">
+                    <img src="./images/svg/026-sass.svg" alt="">
+                    <span>sass</span>
+                </div>
+                <div class="tech-element">
+                    <img src="./images/svg/bootstrap.svg" alt="">
+                    <span>bootstrap</span>
+                </div>
+                <div class="tech-element">
+                    <img src="./images/svg/006-react.svg" alt="">
+                    <span>react</span>
+                </div>
+                <div class="tech-element">
+                    <img src="./images/svg/symfony_white_03.svg" alt="">
+                    <span>symfony</span>
+                </div>
+                <div class="tech-element">
+                    <img src="./images/svg/gsap-greensock.svg" alt="">
+                    <span>gsap</span>
+                </div>
+                <div class="tech-element">
+                    <img src="./images/svg/032-nodejs.svg" alt="">
+                    <span>node js</span>
+                </div>
+            </div>
+            <h2><img src="./images/svg/adjust.svg" alt="Logo "> Mes outils</h2>
+            <div class="tech-line">
+                <div class="tech-element">
+                    <img src="./images/svg/visual-studio.svg" alt="">
+                    <span>vs code</span>
+                </div>
+                <div class="tech-element">
+                    <img src="./images/svg/010-github.svg" alt="">
+                    <span>github</span>
+                </div>
+                <div class="tech-element">
+                    <img src="./images/svg/xd.svg" alt="">
+                    <span>adobe xd</span>
+                </div>
+                <div class="tech-element">
+                    <img src="./images/svg/wordpress.svg" alt="">
+                    <span>wordpress</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="projects container">
+        <h2>Mes projets</h2>
+        <div class="projects-wrapper">
+            <div class="project-element" style="background-image: url('./images/vitrine-tom.jpg');">
+                <div class="mask">
+                    <span>tomleduc.fr</span>
+                    <a class="button-1" href="#">Visiter le site</a>
+                </div>
+            </div>
+            <div class="project-element" style="background-image: url('./images/vitrine-tom.jpg');">
+                <div class="mask">
+                    <span>tomleduc.fr</span>
+                    <a class="button-1" href="#">Visiter le site</a>
+                </div>
+            </div>
+            <div class="project-element" style="background-image: url('./images/vitrine-tom.jpg');">
+                <div class="mask">
+                    <span>tomleduc.fr</span>
+                    <a class="button-1" href="#">Visiter le site</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact">
+        <h2>Un projet en tête ? <br>Contactez moi !</h2>
+        <form action="">
+            <div class="from-row">
+                <div class="form-group">
+                    <label class="ir" for="name">Nom</label>
+                    <input class="form-input" type="text" id="name" name="name" placeholder="Nom">
+                </div>
+                <div class="form-group">
+                    <label class="ir" for="email">Email</label>
+                    <input class="form-input" type="email" id="email" name="email" placeholder="Email">
+                </div>
+            </div>
+            <div class="from-row">
+                <div class="form-group">
+                    <label class="ir" for="subject">Objet</label>
+                    <input class="form-input" type="text" id="subject" name="subject" placeholder="Objet">
+                </div>
+            </div>
+            <div class="from-row">
+                <div class="form-group">
+                    <label class="ir" for="message">Message</label>
+                    <input class="form-input" type="text" id="message" name="message" placeholder="Message">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="social-medias">
+                    <a class="social-link" href="#"><img src="./images/svg/twitter.svg" alt="Logo twitter"></a>
+                    <a class="social-link" href="#"><img src="./images/svg/linkedin.svg" alt="Logo twitter"></a>
+                    <a class="social-link" href="#"><img src="./images/svg/github.svg" alt="Logo twitter"></a>
+                </div>
+                <div class="form-group">
+                    <label for="submit">Envoyer</label>
+                    <input class="button-1" type="submit" value="Envoyer">
+                </div>
+            </div>
+        </form>
+    </section>
+    <script src="./js/gsap.min.js"></script>
 </body>
 </html>

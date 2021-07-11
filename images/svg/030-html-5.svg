@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="189.851" height="189.851" viewBox="0 0 189.851 189.851">
+  <defs>
+    <filter id="Tracé_57" x="0" y="0" width="189.851" height="189.851" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="_030-html-5" data-name="030-html-5" transform="translate(9 6)">
+    <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#Tracé_57)">
+      <path id="Tracé_57-2" data-name="Tracé 57" d="M171.851,85.925A85.925,85.925,0,1,1,85.925,0,85.783,85.783,0,0,1,171.851,85.925Z" transform="translate(9 6)" fill="#f2f2f2"/>
+    </g>
+    <path id="Tracé_58" data-name="Tracé 58" d="M195.592,119.474l-9.81,113.758a85.937,85.937,0,0,1-104.843.3L71.105,119.474Z" transform="translate(-47.239 -79.373)" fill="#e64c18"/>
+    <path id="Tracé_59" data-name="Tracé 59" d="M256.546,151.249V269.7l40.92-11.552,9.128-106.9Z" transform="translate(-170.437 -100.483)" fill="#f36518"/>
+    <path id="Tracé_60" data-name="Tracé 60" d="M140.9,195.528l4.013,47.515h53.335l-1.745,19.628-16.787,4.546-17.483-4.9-.439-12.237H145.511l2.039,24.126,32.17,9.092,32.169-9.092L215.875,227H159.708l-1.394-15.386h0l58.89-.308,1.332-15.778Z" transform="translate(-93.61 -129.9)" fill="#fff"/>
+    <path id="Tracé_61" data-name="Tracé 61" d="M121.359,16.8v8.163h-7.8V16.8H106.3V40.2h7.256V32.578h7.8V40.2h7.256V16.8Z" transform="translate(-70.623 -11.158)"/>
+    <path id="Tracé_62" data-name="Tracé 62" d="M205.357,16.8H183.045v8.163H190.3V40.378h7.8V24.959h7.256Z" transform="translate(-121.607 -11.158)"/>
+    <path id="Tracé_63" data-name="Tracé 63" d="M357.844,33.3V17.337h-7.8v23.4h19.047V33.3Z" transform="translate(-232.553 -11.518)"/>
+    <path id="Tracé_64" data-name="Tracé 64" d="M277.933,17.337l-5.441,8.344-5.442-8.344h-7.8v23.4h7.8V29.128l5.442,8.345,5.441-8.345v11.61h7.8v-23.4Z" transform="translate(-172.233 -11.518)"/>
+  </g>
+</svg>

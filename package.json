@@ -1,0 +1,20 @@
+{
+  "name": "portfolio-nathan",
+  "version": "1.0.0",
+  "description": "Portfolio de Nathan Leduc",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "sass": "sass scss/style.scss css/style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ayddan/nathanleduc.fr.git"
+  },
+  "author": "Nathan Leduc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ayddan/nathanleduc.fr/issues"
+  },
+  "homepage": "https://github.com/Ayddan/nathanleduc.fr#readme"
+}
