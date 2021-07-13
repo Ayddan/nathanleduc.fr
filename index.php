@@ -24,16 +24,16 @@
             </div>
         </div>
         <div class="letters">
-            <img src="./images/svg/n-hero.svg" alt="Logo N">
-            <img src="./images/svg/l-hero.svg" alt="Logo L">
+            <img class="logo-letter" src="./images/svg/n-hero.svg" alt="Logo N">
+            <img class="logo-letter" src="./images/svg/l-hero.svg" alt="Logo L">
         </div>
     </section>
     <section class="presentation container" id="presentation">
-        <h2>Bienvenue, je suis Nathan.</h2>
+        <h2>Bienvenue, moi c'est Nathan.</h2>
         <p>Je développe des sites web et applications depuis plus d'un an avec passion. D'abord autodidacte, puis en apprentissage. J'ai accumulé une expérience qui ma permise d'agrandir mon champ de compétences et de répondre aux attentes de mes clients.</p>
     </section>
     <section class="tech">
-        <div class="tech-content container">
+        <div class="tech-content tech-1 container">
             <h2><img src="./images/svg/web-development.svg" alt="Logo languages"> Languages</h2>
             <div class="tech-line">
                 <div class="tech-element">
@@ -61,6 +61,8 @@
                     <span>PYTHON</span>
                 </div>
             </div>
+        </div>
+        <div class="tech-content tech-2 container">
             <h2><img src="./images/svg/web-settings.svg" alt="Logo frameworks"> Frameworks / Librairies</h2>
             <div class="tech-line">
                 <div class="tech-element">
@@ -88,6 +90,8 @@
                     <span>node js</span>
                 </div>
             </div>
+        </div>
+        <div class="tech-content tech-3 container">
             <h2><img src="./images/svg/adjust.svg" alt="Logo "> Mes outils</h2>
             <div class="tech-line">
                 <div class="tech-element">
@@ -108,6 +112,7 @@
                 </div>
             </div>
         </div>
+        
     </section>
     <section class="projects container">
         <h2>Mes projets</h2>
@@ -176,11 +181,14 @@
             <div id="map"></div>
         </div>
     </section>
+    <script src="./js/SplitText.min.js"></script>
+    <script src="./js/ScrollTrigger.min.js"></script>
     <script src='./js/gsap.min.js'></script>
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
    crossorigin=""></script>
     <script src='./js/map.js'></script>
     <script src='./js/noResubmission.js'></script>
+    <script src="./js/animations.js"></script>
 </body>
 </html>
