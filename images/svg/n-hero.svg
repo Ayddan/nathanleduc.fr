@@ -1,6 +1,38 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="673.704" height="801.916" viewBox="0 0 673.704 801.916">
-  <g id="n-hero" transform="translate(-938.929 -560.958) rotate(16)">
-    <text id="N" transform="translate(1240 776)" fill="#2e5dae" font-size="566" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="0" y="0">N</tspan></text>
-    <text id="N-2" data-name="N" transform="translate(1285 776)" fill="#257ef3" font-size="566" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="0" y="0">N</tspan></text>
+<svg id="n-hero" xmlns="http://www.w3.org/2000/svg" width="674" height="802" viewBox="0 0 674 802">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: rgba(0,0,0,0);
+      }
+
+      .cls-1 {
+        stroke: rgba(0,0,0,0);
+      }
+
+      .cls-3 {
+        fill: rgba(45,93,174,0.98);
+      }
+
+      .cls-4 {
+        fill: rgba(36,125,243,0.99);
+      }
+
+      .cls-5 {
+        stroke: none;
+      }
+
+      .cls-6 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="Sizing_Rectangle" data-name="Sizing Rectangle" class="cls-1">
+    <rect class="cls-5" width="672.743" height="801.641"/>
+    <rect class="cls-6" x="0.5" y="0.5" width="671.743" height="800.641"/>
   </g>
+  <path id="rgba_0_0_0_0_" data-name="rgba(0,0,0,0)" class="cls-2" d="M0,0H674V802H0ZM194,158,84,540l12,4,84,23,28,9,7,1,1-1,50-175,4,8,90,210,8,3,109,31,1-1,8-31,3-7,32-115,5-14,1-7,3-7,28-101,3-7,24-84,1-7-1-2-52-14-7-3-21-5-42-13-8-1L405,411,311,194l-5-4Z"/>
+  <path id="rgba_45_93_174_0.98_" data-name="rgba(45,93,174,0.98)" class="cls-3" d="M193.5,158l39,11,4.5,2.5-109,380,.5,1.5-43-12L84,539.5Z"/>
+  <path id="rgba_45_93_174_0.98_2" data-name="rgba(45,93,174,0.98)" class="cls-3" d="M455,234l42.5,11,1.5,1.5L432.5,477,405,414.5v-7l7-21Z"/>
+  <path id="rgba_45_93_174_0.98_3" data-name="rgba(45,93,174,0.98)" class="cls-3" d="M280,347q2.7-1.1,2,1.5l123,283-2.5.5-35-10-7.5-3.5-94-217v-5Z"/>
+  <path id="rgba_36_125_243_0.99_" data-name="rgba(36,125,243,0.99)" class="cls-4" d="M237.5,171l68,19,5.5,3.5L432.5,477l67-231,39,12,46,12,1.5,1.5-1,7-24,84-3,7-28,101-3,7-1,7-5,14-32,115-3,7-8,31-1.5,1.5-70-21-1.5.5L282,347q-3.3-1.3-2,3.5l-14,46-1,8-49,171-1.5,1.5-28-7-16-6-38-10-4.5-2.5,95-334,3-7,10-38Z"/>
 </svg>

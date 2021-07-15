@@ -1,6 +1,43 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="590.558" height="778.403" viewBox="0 0 590.558 778.403">
-  <g id="l-hero" transform="translate(-1246.672 314.121) rotate(-19)">
-    <text id="L" transform="translate(1240 776)" fill="#2e5dae" font-size="566" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="0" y="0">L</tspan></text>
-    <text id="L-2" data-name="L" transform="translate(1285 776)" fill="#257ef3" font-size="566" font-family="Montserrat-Bold, Montserrat" font-weight="700"><tspan x="0" y="0">L</tspan></text>
+<svg id="l-hero" xmlns="http://www.w3.org/2000/svg" width="591" height="779" viewBox="0 0 591 779">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: rgba(0,0,0,0);
+      }
+
+      .cls-1 {
+        stroke: rgba(0,0,0,0);
+      }
+
+      .cls-3 {
+        fill: rgba(45,93,174,1);
+      }
+
+      .cls-4 {
+        fill: #257df2;
+      }
+
+      .cls-5 {
+        fill: rgba(35,108,213,0.29);
+      }
+
+      .cls-6 {
+        stroke: none;
+      }
+
+      .cls-7 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="Sizing_Rectangle" data-name="Sizing Rectangle" class="cls-1">
+    <rect class="cls-6" width="590.558" height="778.403"/>
+    <rect class="cls-7" x="0.5" y="0.5" width="589.558" height="777.403"/>
   </g>
+  <path id="rgba_0_0_0_0_" data-name="rgba(0,0,0,0)" class="cls-2" d="M0,0H591V779H0ZM223,209,95,253l-2,2L222,629,537,522l3-2-17-52-7-19h-3l-3,2L329,513,224,212Q225,208,223,209Z"/>
+  <path id="rgba_45_93_174_1_" data-name="rgba(45,93,174,1)" class="cls-3" d="M134.5,240q3.8-1.2,2.5,2.5l128,371A180.24,180.24,0,0,1,222,628L94,254Z"/>
+  <path id="rgba_37_125_242_1_" data-name="rgba(37,125,242,1)" class="cls-4" d="M222.5,210,327,514l182.5-62,3-2H516l23,70L265,614,142,254.5l-2-3L137,239Z"/>
+  <path id="rgba_35_108_213_0.29_" data-name="rgba(35,108,213,0.29)" class="cls-5" d="M222.5,209q2.3-.7,1.5,1.5Z"/>
+  <path id="rgba_35_108_213_0.29_2" data-name="rgba(35,108,213,0.29)" class="cls-5" d="M94.5,253l1.5.5L93.5,255Z"/>
+  <path id="rgba_35_108_213_0.29_3" data-name="rgba(35,108,213,0.29)" class="cls-5" d="M222.5,628l2.5.5-2.5.5Z"/>
 </svg>

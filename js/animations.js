@@ -3,7 +3,8 @@ gsap.registerPlugin(ScrollTrigger);
 let letters = document.querySelectorAll('.logo-letter')
 
 // Animations des lettres du hero
-gsap.from(letters,{stagger:.2,duration:1.5, x: 1500, opacity:0, ease: 'power2.out'})
+gsap.from(letters,{stagger:.2,delay:1, duration:1.5, x: 1500, opacity:0, ease: 'power2.out'})
+
 
 function floatLetter(i,delay){
     let letterTl = gsap.timeline({repeat:-1,delay:delay})
