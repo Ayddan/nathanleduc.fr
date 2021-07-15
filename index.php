@@ -135,6 +135,24 @@
                     <a class="button-1" href="#">Visiter le site</a>
                 </div>
             </div>
+            <div class="project-element" style="background-image: url('./images/vitrine-tom.jpg');">
+                <div class="mask">
+                    <span>tomleduc.fr</span>
+                    <a class="button-1" href="#">Visiter le site</a>
+                </div>
+            </div>
+            <div class="project-element" style="background-image: url('./images/vitrine-tom.jpg');">
+                <div class="mask">
+                    <span>tomleduc.fr</span>
+                    <a class="button-1" href="#">Visiter le site</a>
+                </div>
+            </div>
+            <div class="project-element" style="background-image: url('./images/vitrine-tom.jpg');">
+                <div class="mask">
+                    <span>tomleduc.fr</span>
+                    <a class="button-1" href="#">Visiter le site</a>
+                </div>
+            </div>
         </div>
     </section>
     <? echo $alert; ?>
