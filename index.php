@@ -110,6 +110,10 @@
                     <img src="./images/svg/wordpress.svg" alt="">
                     <span>wordpress</span>
                 </div>
+                <div class="tech-element">
+                    <img src="./images/svg/modx-icon.svg" alt="">
+                    <span>modx</span>
+                </div>
             </div>
         </div>
         
