@@ -612,5 +612,57 @@ p {
     left: -100%;
   }
 }
+@media screen and (max-width: 1600px) {
+  h1 {
+    font-size: 55px;
+  }
+
+  .sub-title {
+    font-size: 3.5rem;
+  }
+
+  .button-1 {
+    font-size: 2.5rem;
+  }
+
+  .hero .letters * {
+    width: 40rem;
+  }
+
+  .hero .letters img:nth-child(1) {
+    left: -220px;
+  }
+
+  .hero .letters img:nth-child(2) {
+    left: 78px;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .hero .letters * {
+    width: 30rem;
+  }
+
+  .hero .letters img:nth-child(1) {
+    left: -10px;
+  }
+
+  .hero .letters img:nth-child(2) {
+    left: 182px;
+    top: -193px;
+  }
+}
+@media screen and (max-width: 1150px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  .sub-title {
+    font-size: 2.7rem;
+  }
+
+  .button-1 {
+    font-size: 1.7rem;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
