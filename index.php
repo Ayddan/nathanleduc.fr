@@ -122,7 +122,8 @@
         </section>
         <section class="projects container">
             <h2>Mes projets</h2>
-            <div class="projects-wrapper">
+            <span class="in-dev">A venir</span>
+            <!-- <div class="projects-wrapper">
                 <div class="project-element" style="background-image: url('./images/vitrine-tom.jpg');">
                     <div class="mask">
                         <span>tomleduc.fr</span>
@@ -159,13 +160,13 @@
                         <a class="button-1" href="#">Visiter le site</a>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </section>
-        <? echo $alert; ?>
+        <?php if(isset($alert)){echo $alert;} ?>
         <section class="contact container" id="contact">
             <h2>Un projet en tête ? <br>Contactez moi !</h2>
             <div class="content">
-                <form action="" method="POST">
+                <form action="#" method="POST">
                     <div class="form-row">
                         <div class="form-group">
                             <label class="ir" for="name">Nom</label>
@@ -197,7 +198,7 @@
                         </div>
                         <div class="form-group submit-wrapper">
                             <label class="ir" for="submit">Envoyer</label>
-                            <input class="button-1" name="submit" type="submit" value="Envoyer">
+                            <input class="button-1" name="submit" id="submit" type="submit" value="Envoyer">
                             <div class="submit-background"></div>
                         </div>
                     </div>

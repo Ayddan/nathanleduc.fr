@@ -421,6 +421,14 @@ p {
   margin-right: auto;
 }
 
+.in-dev {
+  margin-top: 12rem;
+  margin-bottom: 20rem;
+  display: block;
+  text-align: center;
+  font-size: 7rem;
+}
+
 .button-1 {
   background: none;
   position: relative;
@@ -454,7 +462,7 @@ p {
 /** hero **/
 .hero {
   margin-top: 15rem;
-  margin-bottom: 55vh;
+  margin-bottom: 45rem;
   display: flex;
   justify-content: space-between;
 }
@@ -605,12 +613,14 @@ p {
   width: 100rem;
   display: flex;
   flex-direction: column;
+  margin-right: 30px;
 }
 .contact form input {
   width: 100%;
 }
 .contact #map {
   width: 600px;
+  min-width: 600px;
 }
 
 #message {
@@ -788,11 +798,27 @@ p {
     left: 292px;
     top: -99px;
   }
+
+  .contact .content {
+    flex-direction: column-reverse;
+  }
+
+  .contact #map {
+    height: 500px;
+    width: 100%;
+    min-width: inherit;
+    margin-bottom: 50px;
+  }
+
+  .contact form {
+    width: 100%;
+  }
 }
 @media screen and (max-width: 954px) {
   .hero {
     flex-direction: column;
     align-items: center;
+    margin-top: 4rem;
   }
 
   h1 {
@@ -800,11 +826,11 @@ p {
   }
 
   h2 {
-    font-size: 35px;
+    font-size: 27px;
   }
 
   p {
-    font-size: 20px;
+    font-size: 16px;
   }
 
   .links-wrapper {
@@ -847,7 +873,7 @@ p {
   }
 
   .hero .letters img:nth-child(2) {
-    left: 253px;
+    left: 247px;
     top: -37px;
   }
 
@@ -874,6 +900,10 @@ p {
     font-size: 25px;
   }
 
+  .tech .tech-line .tech-element span {
+    font-size: 1.5rem;
+  }
+
   .links-wrapper {
     width: 320px;
   }
@@ -883,11 +913,11 @@ p {
   }
 
   .hero .letters img:nth-child(1) {
-    left: 46px;
+    left: 85px;
   }
 
   .hero .letters img:nth-child(2) {
-    left: 253px;
+    left: 213px;
     top: -37px;
   }
 
@@ -897,6 +927,16 @@ p {
 
   .button-1 {
     font-size: 1.4rem;
+  }
+
+  .tech .tech-line .tech-element {
+    width: 100px;
+    margin-right: 2rem;
+  }
+
+  .form-row {
+    display: flex;
+    flex-direction: column-reverse;
   }
 }
 

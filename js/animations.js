@@ -181,6 +181,18 @@ gsap.from('.projects h2',{
         ease:'back.out'
     })
 
+gsap.from('.projects span.in-dev',{
+    scrollTrigger: {
+        trigger: '.projects' ,
+        scroller: ".smooth-scroll",
+        start: "top center", 
+        end: "+=500"},
+        duration:1, 
+        y:200,
+        opacity:0, 
+        ease:'back.out'
+    })
+
 gsap.from('.project-element',{
     scrollTrigger: {
         trigger: '.projects' ,
