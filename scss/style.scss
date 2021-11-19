@@ -1,4 +1,5 @@
 @import 'fonts.scss';
+@import 'locomotiveScroll.scss';
 @import 'base.scss';
 
 
@@ -8,6 +9,19 @@ body{
     color: #fff;
     scroll-behavior: smooth;
     overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+    width: 12px; /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+    background: hsl(0deg 0% 23%); /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(128, 128, 128); /* color of the scroll thumb */
+    border-radius: 20px; /* roundness of the scroll thumb */
 }
 
 h1{
@@ -385,10 +399,119 @@ p{
     h1 {
         font-size: 40px;
     }
+    h2{
+        font-size: 45px;
+    }
+    p {
+        font-size: 23px;
+    }
     .sub-title {
         font-size: 2.7rem;
     }
     .button-1 {
         font-size: 1.7rem;
+    }
+    .hero .letters * {
+        width: 20rem;
+    }
+    .hero .letters img:nth-child(1) {
+        left: 108px;
+    }
+    .hero .letters img:nth-child(2) {
+        left: 292px;
+        top: -99px;
+    }
+}
+
+@media screen and (max-width: 954px){
+    .hero{
+        flex-direction: column;
+        align-items: center;
+    }
+    h1 {
+        font-size: 70px;
+    }
+    h2 {
+        font-size: 35px;
+    }
+    p {
+        font-size: 20px;
+    }
+    .links-wrapper {
+        width: 375px;
+    }
+    .hero .letters * {
+        width: 30rem;
+    }
+    .hero .letters img:nth-child(1) {
+        left: -42px;
+    }
+    .hero .letters img:nth-child(2) {
+        left: 292px;
+        top: -37px;
+    }
+}
+
+@media screen and (max-width: 735px){
+    .hero{
+        flex-direction: column;
+        align-items: center;
+    }
+    h1 {
+        font-size: 50px;
+    }
+    .links-wrapper {
+        width: 375px;
+    }
+    .hero .letters * {
+        width: 20rem;
+    }
+    .hero .letters img:nth-child(1) {
+        left: 46px;
+    }
+    .hero .letters img:nth-child(2) {
+        left: 253px;
+        top: -37px;
+    }
+    .tech h2 img {
+        width: 6rem;
+    }
+    .tech .tech-line .tech-element {
+        width: 140px;
+    }
+    .tech .tech-line {
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 550px){
+    .hero{
+        flex-direction: column;
+        align-items: center;
+    }
+    h1 {
+        font-size: 25px;
+    }
+    .links-wrapper {
+        width: 320px;
+        // flex-direction: column;
+        // align-items: flex-start;
+    }
+    .hero .letters * {
+        width: 20rem;
+    }
+    .hero .letters img:nth-child(1) {
+        left: 46px;
+    }
+    .hero .letters img:nth-child(2) {
+        left: 253px;
+        top: -37px;
+    }
+    .sub-title {
+        font-size: 2rem;
+    }
+    .button-1 {
+        font-size: 1.4rem;
     }
 }

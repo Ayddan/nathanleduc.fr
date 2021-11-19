@@ -142,6 +142,93 @@
   src: local(""), url("../fonts/montserrat-v15-latin-900italic.woff2") format("woff2"), url("../fonts/montserrat-v15-latin-900italic.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
+/*! locomotive-scroll v4.1.3 | MIT License | https://github.com/locomotivemtl/locomotive-scroll */
+html.has-scroll-smooth {
+  overflow: hidden;
+}
+
+html.has-scroll-dragging {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.has-scroll-smooth body {
+  overflow: hidden;
+}
+
+.has-scroll-smooth [data-scroll-container] {
+  min-height: 100vh;
+}
+
+[data-scroll-direction=horizontal] [data-scroll-container] {
+  height: 100vh;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+[data-scroll-direction=horizontal] [data-scroll-section] {
+  display: inline-block;
+  vertical-align: top;
+  white-space: nowrap;
+  height: 100%;
+}
+
+.c-scrollbar {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 11px;
+  height: 100%;
+  transform-origin: center right;
+  transition: transform 0.3s, opacity 0.3s;
+  opacity: 0;
+}
+
+.c-scrollbar:hover {
+  transform: scaleX(1.45);
+}
+
+.c-scrollbar:hover, .has-scroll-scrolling .c-scrollbar, .has-scroll-dragging .c-scrollbar {
+  opacity: 1;
+}
+
+[data-scroll-direction=horizontal] .c-scrollbar {
+  width: 100%;
+  height: 10px;
+  top: auto;
+  bottom: 0;
+  transform: scaleY(1);
+}
+
+[data-scroll-direction=horizontal] .c-scrollbar:hover {
+  transform: scaleY(1.3);
+}
+
+.c-scrollbar_thumb {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: black;
+  opacity: 0.5;
+  width: 7px;
+  border-radius: 10px;
+  margin: 2px;
+  cursor: -webkit-grab;
+  cursor: grab;
+}
+
+.has-scroll-dragging .c-scrollbar_thumb {
+  cursor: -webkit-grabbing;
+  cursor: grabbing;
+}
+
+[data-scroll-direction=horizontal] .c-scrollbar_thumb {
+  right: auto;
+  bottom: 0;
+}
+
 /* Set root font-size @10px equivalent */
 html {
   font-size: 0.625em;
@@ -295,6 +382,23 @@ body {
   color: #fff;
   scroll-behavior: smooth;
   overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+  width: 12px;
+  /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: #3b3b3b;
+  /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: gray;
+  /* color of the scroll thumb */
+  border-radius: 20px;
+  /* roundness of the scroll thumb */
 }
 
 h1 {
@@ -656,12 +760,143 @@ p {
     font-size: 40px;
   }
 
+  h2 {
+    font-size: 45px;
+  }
+
+  p {
+    font-size: 23px;
+  }
+
   .sub-title {
     font-size: 2.7rem;
   }
 
   .button-1 {
     font-size: 1.7rem;
+  }
+
+  .hero .letters * {
+    width: 20rem;
+  }
+
+  .hero .letters img:nth-child(1) {
+    left: 108px;
+  }
+
+  .hero .letters img:nth-child(2) {
+    left: 292px;
+    top: -99px;
+  }
+}
+@media screen and (max-width: 954px) {
+  .hero {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h1 {
+    font-size: 70px;
+  }
+
+  h2 {
+    font-size: 35px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  .links-wrapper {
+    width: 375px;
+  }
+
+  .hero .letters * {
+    width: 30rem;
+  }
+
+  .hero .letters img:nth-child(1) {
+    left: -42px;
+  }
+
+  .hero .letters img:nth-child(2) {
+    left: 292px;
+    top: -37px;
+  }
+}
+@media screen and (max-width: 735px) {
+  .hero {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+
+  .links-wrapper {
+    width: 375px;
+  }
+
+  .hero .letters * {
+    width: 20rem;
+  }
+
+  .hero .letters img:nth-child(1) {
+    left: 46px;
+  }
+
+  .hero .letters img:nth-child(2) {
+    left: 253px;
+    top: -37px;
+  }
+
+  .tech h2 img {
+    width: 6rem;
+  }
+
+  .tech .tech-line .tech-element {
+    width: 140px;
+  }
+
+  .tech .tech-line {
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 550px) {
+  .hero {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h1 {
+    font-size: 25px;
+  }
+
+  .links-wrapper {
+    width: 320px;
+  }
+
+  .hero .letters * {
+    width: 20rem;
+  }
+
+  .hero .letters img:nth-child(1) {
+    left: 46px;
+  }
+
+  .hero .letters img:nth-child(2) {
+    left: 253px;
+    top: -37px;
+  }
+
+  .sub-title {
+    font-size: 2rem;
+  }
+
+  .button-1 {
+    font-size: 1.4rem;
   }
 }
 

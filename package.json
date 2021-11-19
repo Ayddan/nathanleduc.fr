@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Ayddan/nathanleduc.fr/issues"
   },
-  "homepage": "https://github.com/Ayddan/nathanleduc.fr#readme"
+  "homepage": "https://github.com/Ayddan/nathanleduc.fr#readme",
+  "dependencies": {
+    "locomotive-scroll": "^4.1.3"
+  }
 }
