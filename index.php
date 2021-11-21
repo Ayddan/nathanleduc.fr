@@ -21,8 +21,8 @@
                 <h1>Nathan Leduc <br> Developpeur web</h1>
                 <span class="sub-title">Js-React / php-Symfony</span>
                 <div class="links-wrapper">
-                    <a class="button-1" href="#contact">Me contacter</a>
-                    <a class="button-1" href="#presentation">En savoir plus</a>
+                    <a class="button-1 contact-link" href="#contact">Me contacter</a>
+                    <a class="button-1 presentation-link" href="#presentation">En savoir plus</a>
                 </div>
             </div>
             <div class="letters">
@@ -30,7 +30,7 @@
                 <img class="logo-letter" src="./images/svg/l-hero.svg" alt="Logo L">
             </div>
         </section>
-        <section class="presentation container" id="presentation">
+        <section class="presentation container" id="presentation" data-scroll-to>
             <h2>Bienvenue, moi c'est Nathan.</h2>
             <p>Je développe des sites web et applications depuis plus d'un an avec passion. D'abord autodidacte, puis en apprentissage. J'ai accumulé une expérience qui ma permis d'agrandir mon champ de compétences et de répondre aux attentes de mes clients.</p>
         </section>
@@ -39,27 +39,27 @@
                 <h2><img src="./images/svg/web-development.svg" alt="Logo languages"> Languages</h2>
                 <div class="tech-line">
                     <div class="tech-element">
-                        <img src="./images/svg/030-html-5.svg" alt="">
+                        <img src="./images/svg/030-html-5.svg" alt="HTML">
                         <span>HTML</span>
                     </div>
                     <div class="tech-element">
-                        <img src="./images/svg/031-css.svg" alt="">
+                        <img src="./images/svg/031-css.svg" alt="CSS">
                         <span>CSS</span>
                     </div>
                     <div class="tech-element">
-                        <img src="./images/svg/javascript.svg" alt="">
+                        <img src="./images/svg/javascript.svg" alt="Javascript">
                         <span>JAVASCRIPT</span>
                     </div>
                     <div class="tech-element">
-                        <img src="./images/svg/php.svg" alt="">
+                        <img src="./images/svg/php.svg" alt="PHP">
                         <span>PHP</span>
                     </div>
                     <div class="tech-element">
-                        <img src="./images/svg/021-mysql.svg" alt="">
+                        <img src="./images/svg/021-mysql.svg" alt="MYSQL">
                         <span>MYSQL</span>
                     </div>
                     <div class="tech-element">
-                        <img src="./images/svg/005-python.svg" alt="">
+                        <img src="./images/svg/005-python.svg" alt="Python">
                         <span>PYTHON</span>
                     </div>
                 </div>
@@ -68,52 +68,52 @@
                 <h2><img src="./images/svg/web-settings.svg" alt="Logo frameworks"> Frameworks / Librairies</h2>
                 <div class="tech-line">
                     <div class="tech-element">
-                        <img src="./images/svg/026-sass.svg" alt="">
+                        <img src="./images/svg/026-sass.svg" alt="Sass">
                         <span>sass</span>
                     </div>
                     <div class="tech-element">
-                        <img src="./images/svg/bootstrap.svg" alt="">
+                        <img src="./images/svg/bootstrap.svg" alt="Bootstrap">
                         <span>bootstrap</span>
                     </div>
                     <div class="tech-element">
-                        <img src="./images/svg/006-react.svg" alt="">
+                        <img src="./images/svg/006-react.svg" alt="Ract JS">
                         <span>react</span>
                     </div>
                     <div class="tech-element">
-                        <img src="./images/svg/symfony_white_03.svg" alt="">
+                        <img src="./images/svg/symfony_white_03.svg" alt="Symfony">
                         <span>symfony</span>
                     </div>
                     <div class="tech-element">
-                        <img src="./images/svg/gsap-greensock.svg" alt="">
+                        <img src="./images/svg/gsap-greensock.svg" alt="GSAP Greensock">
                         <span>gsap</span>
                     </div>
                     <div class="tech-element">
-                        <img src="./images/svg/032-nodejs.svg" alt="">
+                        <img src="./images/svg/032-nodejs.svg" alt="NodeJS">
                         <span>node js</span>
                     </div>
                 </div>
             </div>
             <div class="tech-content tech-3 container">
-                <h2><img src="./images/svg/adjust.svg" alt="Logo "> Mes outils</h2>
+                <h2><img src="./images/svg/adjust.svg" alt="Logo Outils"> Mes outils</h2>
                 <div class="tech-line">
                     <div class="tech-element">
-                        <img src="./images/svg/visual-studio.svg" alt="">
+                        <img src="./images/svg/visual-studio.svg" alt="Visual Studio Code">
                         <span>vs code</span>
                     </div>
                     <div class="tech-element">
-                        <img src="./images/svg/010-github.svg" alt="">
+                        <img src="./images/svg/010-github.svg" alt="Git Hub">
                         <span>github</span>
                     </div>
                     <div class="tech-element">
-                        <img src="./images/svg/xd.svg" alt="">
+                        <img src="./images/svg/xd.svg" alt="Adobe XD">
                         <span>adobe xd</span>
                     </div>
                     <div class="tech-element">
-                        <img src="./images/svg/wordpress.svg" alt="">
+                        <img src="./images/svg/wordpress.svg" alt="Wordpress">
                         <span>wordpress</span>
                     </div>
                     <div class="tech-element">
-                        <img src="./images/svg/modx-icon.svg" alt="">
+                        <img src="./images/svg/modx-icon.svg" alt="MODX">
                         <span>modx</span>
                     </div>
                 </div>
@@ -163,10 +163,10 @@
             </div> -->
         </section>
         <?php if(isset($alert)){echo $alert;} ?>
-        <section class="contact container" id="contact">
+        <section class="contact container" id="contact" data-scroll-to>
             <h2>Un projet en tête ? <br>Contactez moi !</h2>
             <div class="content">
-                <form action="#" method="POST">
+                <form action="#contact" method="POST">
                     <div class="form-row">
                         <div class="form-group">
                             <label class="ir" for="name">Nom</label>

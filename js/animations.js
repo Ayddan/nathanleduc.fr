@@ -259,6 +259,20 @@ gsap.from('.social-link',{
         ease:'power1.out'
     })
 
+    const contactLink = document.querySelector('.contact-link');
+    const contact = document.querySelector('#contact');
+    const presentationLink = document.querySelector('.presentation-link');
+    const presentation = document.querySelector('#presentation');
+
+    contactLink.addEventListener('click', (e)=>{
+        e.preventDefault();
+        locoScroll.scrollTo(contact);
+    })
+
+    presentationLink.addEventListener('click', (e)=>{
+        e.preventDefault();
+        locoScroll.scrollTo(presentation);
+    })
 
 // each time the window updates, we should refresh ScrollTrigger and then update LocomotiveScroll. 
 ScrollTrigger.addEventListener("refresh", () => locoScroll.update());
