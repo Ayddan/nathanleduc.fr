@@ -21,8 +21,8 @@
                 <h1>Nathan Leduc <br> Developpeur web</h1>
                 <span class="sub-title">Js-React / php-Symfony</span>
                 <div class="links-wrapper">
-                    <a class="button-1 contact-link" href="#contact">Me contacter</a>
-                    <a class="button-1 presentation-link" href="#presentation">En savoir plus</a>
+                    <a class="button-1 contact-link" href="#contact" rel="noreferrer">Me contacter</a>
+                    <a class="button-1 presentation-link" href="#presentation" rel="noreferrer">En savoir plus</a>
                 </div>
             </div>
             <div class="letters">
