@@ -16,6 +16,7 @@
 </head>
 <body>
     <div data-scroll-container class="smooth-scroll">
+        <?php if(isset($alert)){echo $alert;} ?>
         <section class="hero container">
             <div class="text-content">
                 <h1>Nathan Leduc <br> Developpeur web</h1>
@@ -30,9 +31,9 @@
                 <img class="logo-letter" src="./images/svg/l-hero.svg" alt="Logo L">
             </div>
         </section>
-        <section class="presentation container" id="presentation" data-scroll-to>
+        <section class="presentation container" id="presentation">
             <h2>Bienvenue, moi c'est Nathan.</h2>
-            <p>Je développe des sites web et applications depuis plus d'un an avec passion. D'abord autodidacte, puis en apprentissage. J'ai accumulé une expérience qui ma permis d'agrandir mon champ de compétences et de répondre aux attentes de mes clients.</p>
+            <p>Je développe des sites web et applications depuis plus d'un an avec passion. D'abord autodidacte, puis en apprentissage. J'ai accumulé une expérience qui m'a permis d'agrandir mon champ de compétences et de répondre aux attentes de mes clients.</p>
         </section>
         <section class="tech">
             <div class="tech-content tech-1 container">
@@ -162,11 +163,11 @@
                 </div>
             </div> -->
         </section>
-        <?php if(isset($alert)){echo $alert;} ?>
-        <section class="contact container" id="contact" data-scroll-to>
+        
+        <section class="contact container" id="contact">
             <h2>Un projet en tête ? <br>Contactez moi !</h2>
             <div class="content">
-                <form action="#contact" method="POST">
+                <form method="POST">
                     <div class="form-row">
                         <div class="form-group">
                             <label class="ir" for="name">Nom</label>
