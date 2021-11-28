@@ -37,80 +37,76 @@
         </section>
         <section class="tech">
             <div class="tech-content tech-1 container">
-                <h2><img src="./images/svg/web-development.svg" alt="Logo languages"> Languages</h2>
+                <h2><img src="./images/png/web-development.png" alt="Logo languages"> Languages</h2>
                 <div class="tech-line">
                     <div class="tech-element">
-                        <img src="./images/svg/030-html-5.svg" alt="HTML">
+                        <img src="./images/png/030-html-5.png" alt="HTML">
                         <span>HTML</span>
                     </div>
                     <div class="tech-element">
-                        <img src="./images/svg/031-css.svg" alt="CSS">
+                        <img src="./images/png/031-css.png" alt="CSS">
                         <span>CSS</span>
                     </div>
                     <div class="tech-element">
-                        <img src="./images/svg/javascript.svg" alt="Javascript">
+                        <img src="./images/png/javascript.png" alt="Javascript">
                         <span>JAVASCRIPT</span>
                     </div>
                     <div class="tech-element">
-                        <img src="./images/svg/php.svg" alt="PHP">
+                        <img src="./images/png/php.png" alt="PHP">
                         <span>PHP</span>
                     </div>
                     <div class="tech-element">
-                        <img src="./images/svg/021-mysql.svg" alt="MYSQL">
+                        <img src="./images/png/021-mysql.png" alt="MYSQL">
                         <span>MYSQL</span>
                     </div>
-                    <div class="tech-element">
-                        <img src="./images/svg/005-python.svg" alt="Python">
+                    <!-- <div class="tech-element">
+                        <img src="./images/png/005-python.png" alt="Python">
                         <span>PYTHON</span>
-                    </div>
+                    </div> -->
                 </div>
             </div>
             <div class="tech-content tech-2 container">
-                <h2><img src="./images/svg/web-settings.svg" alt="Logo frameworks"> Frameworks / Librairies</h2>
+                <h2><img src="./images/png/web-settings.png" alt="Logo frameworks"> Frameworks / Librairies</h2>
                 <div class="tech-line">
                     <div class="tech-element">
-                        <img src="./images/svg/026-sass.svg" alt="Sass">
+                        <img src="./images/png/026-sass.png" alt="Sass">
                         <span>sass</span>
                     </div>
                     <div class="tech-element">
-                        <img src="./images/svg/bootstrap.svg" alt="Bootstrap">
+                        <img src="./images/png/bootstrap.png" alt="Bootstrap">
                         <span>bootstrap</span>
                     </div>
                     <div class="tech-element">
-                        <img src="./images/svg/006-react.svg" alt="Ract JS">
+                        <img src="./images/png/006-react.png" alt="Ract JS">
                         <span>react</span>
                     </div>
                     <div class="tech-element">
-                        <img src="./images/svg/symfony_white_03.svg" alt="Symfony">
+                        <img src="./images/png/symfony_white_03.png" alt="Symfony">
                         <span>symfony</span>
                     </div>
                     <div class="tech-element">
-                        <img src="./images/svg/gsap-greensock.svg" alt="GSAP Greensock">
+                        <img src="./images/png/gsap-greensock.png" alt="GSAP Greensock">
                         <span>gsap</span>
-                    </div>
-                    <div class="tech-element">
-                        <img src="./images/svg/032-nodejs.svg" alt="NodeJS">
-                        <span>node js</span>
                     </div>
                 </div>
             </div>
             <div class="tech-content tech-3 container">
-                <h2><img src="./images/svg/adjust.svg" alt="Logo Outils"> Mes outils</h2>
+                <h2><img src="./images/png/adjust.png" alt="Logo Outils"> Mes outils</h2>
                 <div class="tech-line">
                     <div class="tech-element">
-                        <img src="./images/svg/visual-studio.svg" alt="Visual Studio Code">
+                        <img src="./images/png/visual-studio.png" alt="Visual Studio Code">
                         <span>vs code</span>
                     </div>
                     <div class="tech-element">
-                        <img src="./images/svg/010-github.svg" alt="Git Hub">
+                        <img src="./images/png/010-github.png" alt="Git Hub">
                         <span>github</span>
                     </div>
                     <div class="tech-element">
-                        <img src="./images/svg/xd.svg" alt="Adobe XD">
+                        <img src="./images/png/xd.png" alt="Adobe XD">
                         <span>adobe xd</span>
                     </div>
                     <div class="tech-element">
-                        <img src="./images/svg/wordpress.svg" alt="Wordpress">
+                        <img src="./images/png/wordpress.png" alt="Wordpress">
                         <span>wordpress</span>
                     </div>
                     <div class="tech-element">
