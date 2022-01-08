@@ -4,7 +4,6 @@
   "description": "Portfolio de Nathan Leduc",
   "main": "index.js",
   "scripts": {
-    "test": "test",
     "sass": "sass scss/style.scss css/style.css --watch"
   },
   "repository": {

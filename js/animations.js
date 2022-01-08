@@ -169,7 +169,7 @@ gsap.from('.tech-3 .tech-element',{
 
 
 
-gsap.from('.projects h2',{
+gsap.from('.projects h2:first-of-type',{
     scrollTrigger: {
         trigger: '.projects' ,
         scroller: ".smooth-scroll",
@@ -180,6 +180,20 @@ gsap.from('.projects h2',{
         opacity:0, 
         ease:'back.out'
     })
+
+
+gsap.from('.project-element-wrapper',{
+    scrollTrigger: {
+        trigger: '.project-element-wrapper' ,
+        scroller: ".smooth-scroll",
+        start: "top bottom", 
+        end: "+=500"},
+        duration:1,
+        stagger:.05, 
+        scale:0,
+        opacity:0, 
+        ease:'back.out'
+})
 
 gsap.from('.projects span.in-dev',{
     scrollTrigger: {

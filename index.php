@@ -119,45 +119,79 @@
         </section>
         <section class="projects container">
             <h2>Mes projets</h2>
-            <span class="in-dev">A venir</span>
-            <!-- <div class="projects-wrapper">
-                <div class="project-element" style="background-image: url('./images/vitrine-tom.jpg');">
+            <!-- <span class="in-dev">A venir</span> -->
+            <div class="projects-wrapper">
+                <!-- <div class="project-element-wrapper">
+                    <a class="github-link" href="#">
+                        <img src="./images/png/010-github.png" alt="Git Hub">
+                    </a>
+                    <div class="project-image" style="background-image: url('./images/vitrine-tom.jpg');"></div>
+                    <div class="element-body">
+                        <h2>Vitrine Tom Leduc</h2>
+                        <hr>
+                        <p>Site vitrine du photographe animalier Tom Leduc. Site vitrine avec gestion de contenu pour la galerie.</p>
+                        <div class="tech-and-link-wrapper">
+                            <div class="tech-line">
+                                <div class="tech-element">
+                                    <img src="./images/png/symfony_white_03.png" alt="Symfony">
+                                    <span>symfony</span>
+                                </div>
+                                <div class="tech-element">
+                                    <img src="./images/png/gsap-greensock.png" alt="GSAP Greensock">
+                                    <span>gsap</span>
+                                </div>
+                            </div>
+                            <a class="button-1" href="#">Visiter</a>
+                        </div>
+                    </div>
+                </div> -->
+                <div class="project-element-wrapper">
+                    <a class="github-link" href="https://gitlab.com/Quamiye/cefimvote/-/tree/develop" target="_blank">
+                        <img src="./images/png/010-github.png" alt="Git Hub">
+                    </a>
+                    <div class="project-image" style="background-image: url('./images/cefim-vote.jpg');"></div>
+                    <div class="element-body">
+                        <h2>CEFIM VOTE</h2>
+                        <hr>
+                        <p>Outil pour l'éléction des délégués de classe de l'école CEFIM avec génération d'un procés verbal au format PDF</p>
+                        <div class="tech-and-link-wrapper">
+                            <div class="tech-line">
+                                <div class="tech-element">
+                                    <img src="./images/png/030-html-5.png" alt="HTML">
+                                    <span>HTML</span>
+                                </div>
+                                <div class="tech-element">
+                                    <img src="./images/png/031-css.png" alt="CSS">
+                                    <span>CSS</span>
+                                </div>
+                                <div class="tech-element">
+                                    <img src="./images/png/javascript.png" alt="Javascript">
+                                    <span>JAVASCRIPT</span>
+                                </div>
+                                <div class="tech-element">
+                                    <img src="./images/png/php.png" alt="PHP">
+                                    <span>PHP</span>
+                                </div>
+                                <div class="tech-element">
+                                    <img src="./images/png/symfony_white_03.png" alt="Symfony">
+                                    <span>SYMFONY</span>
+                                </div>
+                                <div class="tech-element">
+                                    <img src="./images/png/Vuejs.png" alt="HTML">
+                                    <span>VUEJS</span>
+                                </div>
+                            </div>
+                            <a class="button-1" href="https://cefimvote.cefim.o2switch.site/#/" target="_blank">Visiter</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="project-element" style="background-image: url('./images/vitrine-tom.jpg');">
                     <div class="mask">
                         <span>tomleduc.fr</span>
                         <a class="button-1" href="#">Visiter le site</a>
                     </div>
-                </div>
-                <div class="project-element" style="background-image: url('./images/vitrine-tom.jpg');">
-                    <div class="mask">
-                        <span>tomleduc.fr</span>
-                        <a class="button-1" href="#">Visiter le site</a>
-                    </div>
-                </div>
-                <div class="project-element" style="background-image: url('./images/vitrine-tom.jpg');">
-                    <div class="mask">
-                        <span>tomleduc.fr</span>
-                        <a class="button-1" href="#">Visiter le site</a>
-                    </div>
-                </div>
-                <div class="project-element" style="background-image: url('./images/vitrine-tom.jpg');">
-                    <div class="mask">
-                        <span>tomleduc.fr</span>
-                        <a class="button-1" href="#">Visiter le site</a>
-                    </div>
-                </div>
-                <div class="project-element" style="background-image: url('./images/vitrine-tom.jpg');">
-                    <div class="mask">
-                        <span>tomleduc.fr</span>
-                        <a class="button-1" href="#">Visiter le site</a>
-                    </div>
-                </div>
-                <div class="project-element" style="background-image: url('./images/vitrine-tom.jpg');">
-                    <div class="mask">
-                        <span>tomleduc.fr</span>
-                        <a class="button-1" href="#">Visiter le site</a>
-                    </div>
-                </div>
-            </div> -->
+                </div> -->
+            </div>
         </section>
         
         <section class="contact container" id="contact">
