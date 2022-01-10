@@ -3,3 +3,19 @@ sendEmail.php
 package-lock.json
 
 node_modules/
+
+# ignore everything in this directory
+/*
+
+# but not these
+!.gitignore
+!assets/
+!core/
+
+# ignore cache and config
+core/cache/*
+core/config/config.inc.php
+config.core.php
+manager/config.core.php
+connectors/config.core.php
+.DS_Store
