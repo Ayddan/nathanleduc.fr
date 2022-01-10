@@ -1,0 +1,4 @@
+key: manager_language
+value: fr
+xtype: modx-combo-language
+area: language

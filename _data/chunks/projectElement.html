@@ -1,0 +1,25 @@
+id: 3
+source: 1
+name: projectElement
+description: 'Chunk pour les éléments de la liste de des projets'
+properties: 'a:0:{}'
+
+-----
+
+<div class="project-element-wrapper">
+    <a class="github-link" href="[[+tv.git_url]]" target="_blank">
+        <img src="assets/theme/images/png/github.png" alt="Git Hub">
+    </a>
+    <div class="project-image" style="background-image: url('assets/theme/images/cefim-vote.jpg');"></div>
+    <div class="element-body">
+        <h2>[[+pagetitle]]</h2>
+        <hr>
+        <p>[[+introtext]]</p>
+        <div class="tech-and-link-wrapper">
+            <div class="tech-line">
+                [[!getTechnoList? &projectList=`[[+tv.tech_list]]`]]
+            </div>
+            <a class="button-1" href="https://cefimvote.cefim.o2switch.site/#/" target="_blank">Visiter</a>
+        </div>
+    </div>
+</div>

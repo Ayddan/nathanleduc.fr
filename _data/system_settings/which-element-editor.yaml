@@ -1,0 +1,4 @@
+key: which_element_editor
+value: SimpleAceCodeEditor
+xtype: modx-combo-rte
+area: editor

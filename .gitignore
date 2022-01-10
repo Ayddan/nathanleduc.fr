@@ -11,6 +11,8 @@ node_modules/
 !.gitignore
 !assets/
 !core/
+!_backup/
+!_data/
 
 # ignore cache and config
 core/cache/*
