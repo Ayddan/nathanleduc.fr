@@ -55,6 +55,7 @@
                         &depth=`0`
                         &tpl=`techElement`
                         &sortdir=`ASC`
+                        &sortby=`menuindex`
                     ]]
                 </div>
             </div>
